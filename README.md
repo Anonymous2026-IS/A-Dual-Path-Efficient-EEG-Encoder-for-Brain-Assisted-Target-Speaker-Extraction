@@ -1,4 +1,5 @@
-# Dual-Path RWKV-like EEG Encoder for Brain-Assisted Target Speaker Extraction
+# A Dual-Path Efficient EEG Encoder for Brain-Assisted Target Speaker
+Extraction
 
 This repository provides the PyTorch implementation for anonymous review.
 
