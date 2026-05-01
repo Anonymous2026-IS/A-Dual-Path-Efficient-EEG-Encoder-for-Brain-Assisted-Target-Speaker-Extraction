@@ -1,22 +1,4 @@
-# coding=utf-8
 
-# TensorFlow implementation of the Perceptual Metric for Speech Quality Evaluation (PMSQE). This metric is
-# computed per frame from the magnitude spectra of the reference and processed speech signal.
-# Inspired on the Perceptual Evaluation of the Speech Quality (PESQ) algorithm, this loss function consists of
-# two regularization factors which account for the symmetrical and asymmetrical distortion in the loudness domain.
-# See [1] for more details.
-#
-# Implemented by Angel M. Gómez
-# Tested and revised by Juan M. Martin
-#
-#   References:
-#    [1] J.M.Martin, A.M.Gomez, J.A.Gonzalez, A.M.Peinado 'A Deep Learning Cost Function inspired on the Perceptual
-#    Evaluation of the Speech Quality', IEEE Signal Processing, 2018.
-#
-#
-# Copyright 2018: University of Granada, Signal Processing, Multimedia Transmission and Speech/Audio Technologies
-# (SigMAT) Group. The software is free for non-commercial use. This program comes WITHOUT ANY WARRANTY.
-#
 import sys
 import tensorflow as tf
 import numpy as np
