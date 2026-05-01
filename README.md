@@ -39,11 +39,12 @@ pip install -r requirements.txt
 ## Train
 
 To train the proposed model, run:
-
+```bash
 python distributed.py -c configs/DP_EEG_TSE.json
-
+```
 ## Test
 
 To evaluate the trained model, run:
-
+```bash
 python test.py -c configs/experiments.json
+```
