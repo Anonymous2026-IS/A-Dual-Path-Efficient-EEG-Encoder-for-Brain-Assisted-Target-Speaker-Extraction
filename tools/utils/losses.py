@@ -1,8 +1,3 @@
-"""
-source code:
-    x
-    https://github.com/chtaal/pystoi
-"""
 
 import tensorflow.keras.backend as K
 import numpy as np
